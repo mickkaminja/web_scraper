@@ -44,5 +44,5 @@ test = open("testfile.txt" ,"w")
 for tech in containers:
 	brand = tech.h2["data-attribute"]
 	
-	test.write(brand)
+	test.write(brand.lower())
 	#test.close()
